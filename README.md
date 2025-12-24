@@ -14,7 +14,7 @@
 
 ### 1. 🔐 Authentication & Security
 * **Login Interface:** Clean UI with Logo, Email, and Password fields.
-* **UX Experience:** * Real-time input validation.
+* **UX Experience:** Real-time input validation.
     * Clear, user-friendly error messages for invalid credentials.
 
 ### 2. 📊 Dashboard Overview
@@ -23,7 +23,6 @@ Get a bird's-eye view of operations with summary cards and metrics:
 * **Total Farmers:** Registered active farmers.
 * **Total Commodities:** Crops currently managed.
 * **Total Land Area:** Count of registered field units.
-* *Optional:* Monthly transaction volume chart.
 
 ### 3. 👨‍🌾 Farmer Management
 Manage the workforce effectively.
