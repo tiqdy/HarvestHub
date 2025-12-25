@@ -94,29 +94,25 @@ const TransactionsList: React.FC = () => {
     {
       key: 'total',
       header: 'Total',
-      className: 'text-right pr-4',
       render: (item: TransactionSummary) => (
-        <span className="block text-right font-semibold">{formatCurrency(item.total)}</span>
+        <span className="font-semibold">{formatCurrency(item.total)}</span>
       ),
     },
     {
       key: 'actions',
       header: '',
-      className: 'text-right pr-4',
       render: (item: TransactionSummary) => (
-        <div className="flex justify-end">
-          <Button
-            variant="ghost"
-            size="icon"
-            onClick={(e) => {
-              e.stopPropagation();
-              navigate(`/transactions/${item.noTransaksi}`);
-            }}
-            className="text-muted-foreground hover:text-primary"
-          >
-            <Eye className="w-4 h-4" />
-          </Button>
-        </div>
+        <Button
+          variant="ghost"
+          size="icon"
+          onClick={(e) => {
+            e.stopPropagation();
+            navigate(`/transactions/${item.noTransaksi}`);
+          }}
+          className="text-muted-foreground hover:text-primary"
+        >
+          <Eye className="w-4 h-4" />
+        </Button>
       ),
     },
   ];
