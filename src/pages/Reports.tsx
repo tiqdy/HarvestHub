@@ -80,23 +80,23 @@ const Reports: React.FC = () => {
     {
       key: 'berat',
       header: 'Weight',
-      className: 'text-right',
-      render: (item: FullTransaksi) => <span>{item.berat.toLocaleString()} kg</span>,
+      className: 'text-right pr-4',
+      render: (item: FullTransaksi) => <span className="block text-right">{item.berat.toLocaleString()} kg</span>,
     },
     {
       key: 'hargaSatuan',
       header: 'Price/kg',
-      className: 'text-right',
+      className: 'text-right pr-4',
       render: (item: FullTransaksi) => (
-        <span className="text-muted-foreground">{formatCurrency(item.hargaSatuan)}</span>
+        <span className="block text-right text-muted-foreground">{formatCurrency(item.hargaSatuan)}</span>
       ),
     },
     {
       key: 'subtotal',
       header: 'Subtotal',
-      className: 'text-right',
+      className: 'text-right pr-4',
       render: (item: FullTransaksi) => (
-        <span className="font-semibold">{formatCurrency(item.subtotal)}</span>
+        <span className="block text-right font-semibold">{formatCurrency(item.subtotal)}</span>
       ),
     },
   ];
