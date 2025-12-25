@@ -181,11 +181,7 @@
   }
 
   .table-harvest th {
-    @apply bg-muted/50 font-semibold text-foreground/80 py-3 px-4 border-b border-border;
-  }
-
-  .table-harvest th:not(.text-right) {
-    @apply text-left;
+    @apply bg-muted/50 text-left font-semibold text-foreground/80 py-3 px-4 border-b border-border;
   }
 
   .table-harvest td {
