@@ -101,8 +101,8 @@ const Login: React.FC = () => {
           >
             {[
               { value: '10+', label: 'Farmers' },
-              { value: '20', label: 'Transactions' },
-              { value: '6', label: 'Commodities' },
+              { value: '20+', label: 'Transactions' },
+              { value: '10+', label: 'Commodities' },
             ].map((stat, i) => (
               <div key={i} className="p-4 rounded-xl bg-primary-foreground/10">
                 <p className="text-2xl font-display font-bold">{stat.value}</p>
