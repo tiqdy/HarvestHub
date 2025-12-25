@@ -101,7 +101,6 @@ const Login: React.FC = () => {
           >
             {[
               { value: '10+', label: 'Farmers' },
-              { value: '10+', label: 'Land Areas' },
               { value: '20+', label: 'Transactions' },
               { value: '10+', label: 'Commodities' },
             ].map((stat, i) => (
