@@ -122,9 +122,9 @@ const Lands: React.FC = () => {
     {
       key: 'actions',
       header: 'Actions',
-      className: 'text-right',
+      className: 'text-right pr-4',
       render: (item: Lahan) => (
-        <div className="flex items-center justify-end gap-2">
+        <div className="flex items-center justify-end gap-2 pr-0">
           <Button
             variant="ghost"
             size="icon"
