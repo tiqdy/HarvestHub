@@ -135,9 +135,8 @@ const Farmers: React.FC = () => {
     {
       key: 'actions',
       header: 'Actions',
-      className: 'text-right pr-4',
       render: (item: Petani) => (
-        <div className="flex items-center justify-end gap-2 pr-0">
+        <div className="flex items-center gap-2">
           <Button
             variant="ghost"
             size="icon"
