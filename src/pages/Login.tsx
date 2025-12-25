@@ -100,9 +100,9 @@ const Login: React.FC = () => {
             className="mt-16 grid grid-cols-3 gap-6 text-center"
           >
             {[
-              { value: '10+', label: 'Farmers' },
-              { value: '20+', label: 'Transactions' },
-              { value: '10+', label: 'Commodities' },
+              { value: '👨‍🌾', label: 'Farmers' },
+              { value: '💳', label: 'Transactions' },
+              { value: '🌾', label: 'Commodities' },
             ].map((stat, i) => (
               <div key={i} className="p-4 rounded-xl bg-primary-foreground/10">
                 <p className="text-2xl font-display font-bold">{stat.value}</p>
