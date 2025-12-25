@@ -253,7 +253,7 @@ const Dashboard: React.FC = () => {
                 <th>Farmer</th>
                 <th>Commodity</th>
                 <th>Weight</th>
-                <th className="text-right pr-4">Subtotal</th>
+                <th>Subtotal</th>
               </tr>
             </thead>
             <tbody>
