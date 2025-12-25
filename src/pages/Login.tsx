@@ -101,6 +101,7 @@ const Login: React.FC = () => {
           >
             {[
               { value: '10+', label: 'Farmers' },
+              { value: '10+', label: 'Land Areas' },
               { value: '20+', label: 'Transactions' },
               { value: '10+', label: 'Commodities' },
             ].map((stat, i) => (
@@ -133,7 +134,7 @@ const Login: React.FC = () => {
           </div>
 
           <div className="mb-8">
-            <h2 className="font-display text-3xl font-bold text-foreground mb-2">Welcome back</h2>
+            <h2 className="font-display text-3xl font-bold text-foreground mb-2">Welcome Back!</h2>
             <p className="text-muted-foreground">Enter your credentials to access your account</p>
           </div>
 
