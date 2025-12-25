@@ -85,7 +85,7 @@ Generate insights based on filtered data.
 
 1.  **Clone the repository**
     ```bash
-    git clone https://github.com/tiqdy/harvesthub.git
+    git clone https://github.com/tiqdy/HarvestHub.git
     ```
 
 2.  **Install dependencies**
